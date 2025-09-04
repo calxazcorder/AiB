@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://localhost:8001"; // Flask API port
+const API_BASE_URL = process.env.FLASK_API_URL || "http://localhost:8001"; // fallback for local dev
 
 const processPrediction = async (formData) => {
   try {
