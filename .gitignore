@@ -1,0 +1,7 @@
+# Ignore Python files
+*.py
+
+# Ignore pickle files
+*.pkl
+
+node_modules
